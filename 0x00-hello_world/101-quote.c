@@ -4,10 +4,8 @@
  * main - Entry point
  *
  * Description: prints a string to the standard error
- *
  * Return: Always 1(Error)
  */
-
 
 int main(void)
 {
