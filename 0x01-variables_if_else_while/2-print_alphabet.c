@@ -8,15 +8,13 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
-	char ch = 'a';
+	char low;
 
-	while (ch <= 'z')
-	{
-		printf("%c", ch, %n);
-		ch++;
-	}
-
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	putchar('\n');
+       
 	return (0);
 }
