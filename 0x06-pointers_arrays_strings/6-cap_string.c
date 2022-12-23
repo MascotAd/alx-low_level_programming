@@ -27,7 +27,7 @@ char *cap_string(char *s)
 /**
  * check_seperators - Separators of words: space, tabulation, new line,
  *
- * ,, ;, ., !, ?, ", (, ), {, and }
+ * ,, ;, ., !, ?, '"', (, ), {, and }
  *
  * @c: an input character
  *
