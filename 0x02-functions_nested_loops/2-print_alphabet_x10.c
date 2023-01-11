@@ -1,58 +1,20 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints lower case alphabet
- *
- **/
-
-void print_alphabet(void)
-  
-{
-  
-
-  
-  char i;
-  
-
-  
-  for (i = 'a'; i <= 'z'; i++)
-    
-    {
-      
-      _putchar(i);
-      
-    }
-  
-  _putchar('\n');
-  
-}
-
-
-
-/**
-
- * print_alphabet_x10 - prints aphabet 10 times
-
- *
-
- **/
-
+ * print_alphabet_x10 - Check msin
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: Nothing.
+ */
 void print_alphabet_x10(void)
-  
 {
-  
+	char i;
+	int j;
 
-  
-  int i;
-  
-
-  
-  for (i = '0'; i <= '9'; i++)
-    
-    {
-      
-      print_alphabet();
-      
-    }
-  
+	for (j = 0; j < 10; j++)
+	{
+		for (i = 'a'; i <= 'z'; i++)
+			_putchar(i);
+		_putchar('\n');
+	}
 }
